@@ -1,0 +1,7 @@
+tup=[(2,4,6),(1,3,5),(7,8,9)]
+result=list(map(sum,tuple))
+avg=sum(result)/len(result)
+print("list of tuple:",tup)
+print("sum of each tup:",result)
+
+print("average",avg)
